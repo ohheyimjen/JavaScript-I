@@ -73,7 +73,8 @@ for(let i = 0; i < inventory.length; i++){
 
 // ==== Challenge 2 ====
 // The dealer needs the information on the last car in their inventory.  What is the make and model of the last car in the inventory?  Log the make and model into the console.
-let lastCar = 0;
+let lastCar = inventory[inventory.length -1];
+console.log(lastCar);
 
 console.log(inventory.pop());
     
@@ -88,6 +89,9 @@ console.log();
 // ==== Challenge 4 ====
 // The accounting team needs all the years from every car on the lot. Create a new array from the dealer data containing only the car years and log the result in the console.
 let carYears = [];
+for(i = 0; i < inventory.length; i++) {
+    carsYears = inventory
+}
 console.log();
 
 // ==== Challenge 5 ====
